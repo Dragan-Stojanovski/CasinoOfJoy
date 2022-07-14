@@ -1557,6 +1557,9 @@ text-align:center;
   color:white;
   border:none;
   cursor:pointer;
+  margin-top:40px;
+  margin-bottom:30px;
+
 }
 
 
@@ -1646,12 +1649,17 @@ height:50vh;
       
       }
       .whole-wrap h2{
-        font-size:20px;
+        font-size:24px;
+        line-height:26px;
       }
       .whole-wrap p{
         font-size:16px;
         margin-top:10px;
       
+      }
+      .whole-wrap h5{
+        font-size:14px;
+        margin-bottom:13px;
       }
 }
 
@@ -2501,6 +2509,24 @@ left:0;
    bottom:10%;
   
   }
+  .whole-wrap a {
+    font-size:16px;
+    
+  }
+  .whole-wrap p{
+    margin-bottom:50px;
+  }
+  .blogs-caption h4 {
+    font-size:4rem;
+    font-weight:600;
+  }
+
+ .card{
+  margin-bottom:30px;
+ }
+ .card2 h3{
+  font-size:2.5rem;
+ }
 }
 
 
