@@ -630,6 +630,7 @@ h4 {
   font-size: 3.25rem;
   margin-bottom: 4.5rem;
   line-height: 1.5;
+  color:rgb(123, 26, 26);
 }
 
 .modal__form {
@@ -1640,7 +1641,7 @@ height:50vh;
   .whole-wrap{
       background-color:rgb(59, 59, 59);
       width:90%;
-      margin-top:5%;
+      margin-top:20%;
       padding:20px;
       border-radius:10px;
       box-shadow: 0px 6px 9px #ffffff29;
@@ -1787,6 +1788,7 @@ padding:6px;
   margin-bottom:5%;
   border-bottom:1px solid white;
   padding-bottom:15px;
+  font-size:1.8rem;
 }
 @media only screen and (max-width: 768px) {
   .container-wrap{
@@ -1933,8 +1935,7 @@ border-bottom:2px solid gold;
   font-weight:600;
 }
 .menu__list > li:hover{
-  background-color:red;
-  padding:0px 10px;
+  border-bottom:3px solid red;
 }
 .menu__list > li:last-child:hover{
   background-color:transparent;
@@ -2148,7 +2149,8 @@ body._touch .menu__list > li._active .menu__arrow {
 .blogs-caption h4{
   text-align:center;
   margin-top:50px;
- 
+ font-size:4.3rem;
+ font-weight:600;
 }
 .blog-articles-wrap{
   display:flex;
@@ -2527,8 +2529,23 @@ left:0;
  .card2 h3{
   font-size:2.5rem;
  }
+ p{
+  font-size:16px;
+  line-height:21px;
+ }
+ h1{
+  font-size:4rem;
+ }
+ .section__header{
+  font-size:2rem;
+  margin-bottom:-30px;
+  font-style:italic;
+ }
 }
 
-
+.active{
+  background-color:red;
+  padding:5px 25px;
+}
 
 
