@@ -16,22 +16,21 @@ let category=document.createElement("h5")
     let link=document.createElement("a")
     let time=document.createElement("h6")
     time.classList.add("vreme")
-        img.src=el.image
-        category.textContent=el.category
-        title.textContent=el.title
-        caption.textContent=el.caption
-        link.textContent="Read More"
-        link.href=el.source_link
-        time.textContent=el.time;
+	img.src=el.image
+	category.textContent=el.category
+	title.textContent=el.title
+	caption.textContent=el.caption
+   
+	link.href=el.source_link
+	time.textContent=el.time;
 
 
-    mainWrap.appendChild(img);
-    mainWrap.appendChild(category);
-    mainWrap.appendChild(title);
-    mainWrap.appendChild(caption);
-    mainWrap.appendChild(link);
-	mainWrap.appendChild(time);
-
+	link.appendChild(img);
+	link.appendChild(category);
+	link.appendChild(title);
+	link.appendChild(caption);
+	link.appendChild(time);
+mainWrap.appendChild(link)
 mainContainer.appendChild(mainWrap);
     })
 }

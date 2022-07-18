@@ -1506,26 +1506,26 @@ line-height:180%;
 background-color:rgb(71, 70, 70);
 width:20%;
 margin-top:5%;
-padding:20px;
-border-radius:10px;
+padding:10px;
+border-radius:6px;
 box-shadow: 0px 3px 6px #ffffff29;
 position:relative;
 font-family:var(--font-primary)
 
 }
 .whole-wrap a{
-position:absolute;
+  background-color:rgb(71, 70, 70);
 bottom:3%;
 right:3%;
 
 text-decoration:none;
-font-weight:900;
+font-weight:300;
 color:rgb(241, 167, 31);
 
 }
 .whole-wrap a:hover{
  color:rgb(255, 209, 122);
- font-size:104%;
+ font-size:101%;
   }
 .whole-wrap img{
 width:80%;
@@ -1535,6 +1535,7 @@ margin-left:10%;
 .whole-wrap p{
   color:white;
   margin-bottom:15px;
+  line-height:19px;
 
 }
 .whole-wrap h2{
@@ -1554,12 +1555,14 @@ text-align:center;
 .load-more{
   margin-top:3%;
   padding:8px 27px;
-  background-color:rgb(241, 167, 31);
+  background-color:red;
   color:white;
   border:none;
   cursor:pointer;
   margin-top:40px;
   margin-bottom:30px;
+  font-size:500;
+  border-radius:0px;
 
 }
 
@@ -2546,6 +2549,6 @@ left:0;
 .active{
   background-color:red;
   padding:5px 25px;
+  border-bottom:none;
 }
-
 
