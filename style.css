@@ -2540,6 +2540,9 @@ left:0;
  h1{
   font-size:4rem;
  }
+ h3{
+  font-size:21px;
+ }
  .section__header{
   font-size:2rem;
   margin-bottom:-30px;
@@ -2556,3 +2559,4 @@ left:0;
 .tralala{
   border-bottom:1px solid red;
 }
+
