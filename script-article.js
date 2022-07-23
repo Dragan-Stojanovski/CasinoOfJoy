@@ -185,3 +185,162 @@ if (menuLinks.length > 0) {
 
 
 
+var sideBar = document.querySelector(".side-bar");
+
+
+let cards = []
+
+function printCards(data) {
+    data.forEach(el => {
+       
+	
+		
+		let sideTitle=document.createElement("h3")
+		
+			let link=document.createElement("a")
+			let image=document.createElement("img")
+			image.src=el.image;
+		
+			sideTitle.textContent=el.title
+			   
+				link.href=el.source_link
+		
+				link.appendChild(image);
+			link.appendChild(sideTitle);
+
+			link.classList.add("side-schedule");
+		
+		
+	
+			sideBar.appendChild(link);
+			
+    })
+}
+
+fetch("side-data.json")
+.then(res => res.json())
+.then(function(data){
+    printCards(data.slice(0, 8))
+    cards = data.slice(8)
+})
+
+
+
+
+
+var sideBarTwo = document.querySelector(".side-bar-2");
+
+
+let cards2 = []
+
+function printCards2(data) {
+    data.forEach(el => {
+       
+	
+		
+		let sideTitle=document.createElement("h3")
+		
+			let link=document.createElement("a")
+			let image=document.createElement("img")
+			image.src=el.image;
+		
+			sideTitle.textContent=el.title
+			   
+				link.href=el.source_link
+		
+				link.appendChild(image);
+				link.appendChild(sideTitle);
+	
+				link.classList.add("side-schedule");
+		
+		
+			
+			sideBarTwo.appendChild(link);
+    })
+}
+
+fetch("side-data-2.json")
+.then(res => res.json())
+.then(function(data){
+    printCards2(data.slice(0, 8))
+    cards2 = data.slice(8)
+})
+
+
+
+
+var sideBarThree = document.querySelector(".side-bar-3");
+
+
+let cards3 = []
+
+function printCards3(data) {
+    data.forEach(el => {
+       
+	
+		
+		let sideTitle=document.createElement("h3")
+		
+			let link=document.createElement("a")
+			let image=document.createElement("img")
+			image.src=el.image;
+			sideTitle.textContent=el.title
+			   
+				link.href=el.source_link
+		
+		
+				link.appendChild(image);
+				link.appendChild(sideTitle);
+	
+				link.classList.add("side-schedule");
+		
+		
+			
+			sideBarThree.appendChild(link);
+    })
+}
+
+fetch("side-data-3.json")
+.then(res => res.json())
+.then(function(data){
+    printCards3(data.slice(0, 8))
+    cards3 = data.slice(8)
+})
+
+
+sideBarTwo.classList.add("display");
+sideBarThree.classList.add("display");
+
+var popular=document.querySelector("#popular");
+var trending=document.querySelector("#trending");
+var latest=document.querySelector("#latest");
+popular.classList.add("active-side");
+popular.addEventListener("click",function(){
+	sideBar.classList.remove("display");
+	sideBarTwo.classList.add("display");
+	sideBarThree.classList.add("display");
+	popular.classList.add("active-side");
+	trending.classList.remove("active-side");
+	latest.classList.remove("active-side");
+
+})
+
+trending.addEventListener("click",function(){
+	sideBar.classList.add("display");
+	sideBarTwo.classList.remove("display");
+	sideBarThree.classList.add("display");
+	popular.classList.remove("active-side");
+	trending.classList.add("active-side");
+	latest.classList.remove("active-side");
+
+})
+
+latest.addEventListener("click",function(){
+	sideBar.classList.add("display");
+	sideBarTwo.classList.add("display");
+	sideBarThree.classList.remove("display");
+	popular.classList.remove("active-side");
+	trending.classList.remove("active-side");
+	latest.classList.add("active-side")
+
+})
