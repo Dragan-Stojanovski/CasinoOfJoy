@@ -1748,24 +1748,19 @@ height:50vh;
   gap:2%;
 
 }
-@keyframes example {
-  from {margin-right:50px;margin-right:50px}
-  to {margin-top:0px;margin-left:0px}
-}
+
 
 .container-block{
   width:85%;
 padding:6px;
-animation-name: example;
-animation-duration: 1.5s;
+
 
 }
 
 .side-block{
   width:25%;
   border-left:1px solid rgba(255, 255, 255, 0.304);
-  animation-name: example;
-  animation-duration: 1.5s;
+  
   
  
 }
@@ -2672,3 +2667,8 @@ left:0;
     padding:2px;
   }
 }
+
+
+.banners-section{
+  display:none;
+ }
