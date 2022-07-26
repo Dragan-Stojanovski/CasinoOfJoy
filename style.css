@@ -2357,7 +2357,7 @@ text-decoration:underline;
 }
 
 .container-block{
-  line-height:28px;
+  line-height:50px;
   margin-top:50px;
   box-shadow: 0px 6px 9px #ffffff43;
   padding:10px;
@@ -2668,7 +2668,10 @@ left:0;
   }
 }
 
-
+p{
+  font-size:16px;
+  line-height:18px;
+}
 .banners-section{
   display:none;
  }
