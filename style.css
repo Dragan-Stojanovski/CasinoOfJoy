@@ -2621,22 +2621,38 @@ left:0;
  }
  p{
   font-size:16px;
-  line-height:21px;
+  line-height:21x;
  }
  h1{
   font-size:5rem;
+  line-height:5rem;
  }
  h3{
   font-size:21px;
+  line-height:24px;
+ }
+ h2{
+  font-size:24px;
+  line-height:28px;
  }
  .section__header{
   font-size:2rem;
   margin-bottom:-30px;
   font-style:italic;
  }
-
+li{
+  color:rgb(220, 248, 95);
+  margin-top:0px;
+  line-height:26px;
+  margin-top:20px;
 }
-
+}
+li{
+  color:rgb(220, 248, 95);
+  margin-top:0px;
+  line-height:26px;
+  margin-top:20px;
+}
 .active{
   background-color:red;
   padding:5px 25px;
