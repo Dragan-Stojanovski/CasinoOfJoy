@@ -518,6 +518,7 @@ h4 {
   grid-row: 1 / span 2;
   width: 6.5rem;
   border-radius: 50%;
+  margin-top:20px;
 }
 
 .testimonial__name {
@@ -2623,7 +2624,7 @@ left:0;
   line-height:21px;
  }
  h1{
-  font-size:4rem;
+  font-size:5rem;
  }
  h3{
   font-size:21px;
