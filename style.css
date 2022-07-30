@@ -34,14 +34,14 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  color: gold;
+  color: white;
   line-height: 1.9;
-  background-color: #161616;
+  background-color: #1f1f22;
 }
 
 /* GENERAL ELEMENTS */
 .section {
-  padding: 15rem 3rem;
+  padding: 2rem 3rem;
   border-top: 1px solid #ddd;
 
   transition: transform 1s, opacity 1s;
@@ -202,6 +202,7 @@ margin-left:15%;
   align-items: start;
   justify-items: start;
   margin-top:250px;
+
 }
 
 h1 {
@@ -244,8 +245,8 @@ h4 {
 .features {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin: 0 12rem;
+  gap: 1rem;
+  margin: 0 17rem;
 }
 
 .features__img {
@@ -1906,7 +1907,7 @@ top:130px;
 }
 
 p{
-  color:rgb(253, 225, 225);
+  color: #bdbdbd;
 }
 .title-blog{
 text-align:left;
@@ -2224,10 +2225,11 @@ body._touch .menu__list > li._active .menu__arrow {
   align-items:stretch;
 }
 .first-blog{
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%,
-  rgb(101, 99, 99)), url("img/basic-gambling.webp");
+  background: linear-gradient(to right, rgba(255, 0, 0, 0) 1%,
+  rgb(13, 13, 13)), url("img/10_greatest_gambling_frauds.jpg");
 background-repeat:no-repeat;
 background-position:center;
+background-size:cover;
 position:relative;
 width:60%;
 height:500px;
@@ -2241,17 +2243,21 @@ width:25%;
 }
 .first-blog a{
   text-decoration:none;
+  color:gold;
+
 }
 .first-blog h2{
   font-size:25px;
-
-text-decoration:underline;
+color:orange;
 }
+
 .first-blog p{
   font-size:16px;
+  color:white;
 }
 .first-blog h5{
   font-size:14px;
+  color:red;
 }
 .cap-wrap{
 position:absolute;
@@ -2282,11 +2288,13 @@ left:10%;
   text-decoration:none;
 }
 .blog-mini-2 h3{
-  color:gold;
+  color:white;
+  font-size:20px;
+  line-height:22px;
 }
 .blog-mini-2 h5{
-  color:white;
-  font-size:12px;
+  color:red;
+  font-size:16px;
 }
 .blog-mini img{
   width:100%;
@@ -2301,21 +2309,23 @@ left:10%;
   gap:5%;
   width:98%;
   margin:auto;
-  margin-top:50px;
+  margin-top:5px;
   align-items:stretch;
 }
 
 .first-blog{
-  background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%,
-  rgb(47, 46, 46)), url("img/basic-gambling.webp");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 1%,
+  rgb(0, 0, 0)), url("img/10_greatest_gambling_frauds.jpg");
 background-repeat:no-repeat;
 background-position:center;
 position:relative;
 width:100%;
-height:500px;
+height:270px;
+
 
 
 }
+
 .second-blog{
 width:100%;
 margin-top:15px;
@@ -2341,8 +2351,8 @@ margin-top:15px;
   }
 .first-blog h2{
   font-size:25px;
-color:gold;
-text-decoration:underline;
+color:white;
+text-decoration:none;
 }
 .article-top{
   border-left:5px solid red;
@@ -2354,6 +2364,9 @@ text-decoration:underline;
 }
 .header__title h1{
   margin-top:100px;
+}
+.section__title-2{
+margin-left:8%;
 }
 }
 
@@ -2556,8 +2569,68 @@ height:70vh;
  .card:hover {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
  }
-@media (max-width:767px) {
 
+ /*Index tips and tricks */
+ .index-tricks-container{
+  background-color:rgb(35, 35, 35);
+  padding:30px 30px;
+ }
+ .index-tricks-wrap{
+  display:flex;
+  justify-content: center;
+  gap:5%;
+ 
+ }
+ .index-tricks-box{
+  width:20%;
+ }
+ .index-tricks-box img{
+  width:100%;
+  border-radius:15px;
+ }
+ .index-tricks-box a{
+  text-decoration:none;
+
+ }
+ .index-tricks-box h3{
+  color:white;
+  font-size:20px;
+  line-height:22px;
+ }
+ .index-tricks-box p{
+  color:rgb(214, 177, 177);
+  margin-top:3%;
+ }
+ .index-tricks-box button{
+  background-color:rgba(255, 0, 0, 0.129);
+  color:white;
+  border:none;
+  padding:4px 15px;
+  font-size:16px;
+  border-radius:5px;
+  margin:5px 0px 20px 0px;
+  cursor:pointer;
+ }
+ .section__title a{
+  background-color:red;
+  text-decoration:none;
+  color:white;
+  padding:3px 15px;
+  font-size:18px;
+ }
+@media (max-width:767px) {
+  .index-tricks-wrap{
+    display:block;
+    justify-content: center;
+    gap:5%;
+   
+   }
+   .index-tricks-box{
+    width:98%;
+    margin-left:1%;
+    margin-top:18px;
+   }
+ 
   .about-wrap{
     display:block;
     margin-top:100px;
@@ -2636,8 +2709,8 @@ left:0;
   line-height:28px;
  }
  .section__header{
-  font-size:2rem;
-  margin-bottom:-30px;
+  font-size:3rem;
+  margin-bottom:0px;
   font-style:italic;
  }
 li{
