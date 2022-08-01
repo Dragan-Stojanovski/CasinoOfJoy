@@ -1532,6 +1532,13 @@ color:rgb(241, 167, 31);
 .whole-wrap img{
 width:80%;
 margin-left:10%;
+-webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+transition: all 2s ease;
+}
+.whole-wrap:hover img{
+  transform: scale(1.08);
 }
 
 .whole-wrap p{
