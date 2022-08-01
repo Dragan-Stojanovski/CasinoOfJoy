@@ -2765,3 +2765,9 @@ p{
 .banners-section{
   display:none;
  }
+
+ .img-article{
+text-align:center;
+margin-top:25px;
+margin-bottom:25px;
+ }
