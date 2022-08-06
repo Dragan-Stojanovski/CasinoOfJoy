@@ -11,18 +11,7 @@
 
     
     },
-    {
-        "image": "img/online_casino_cheat_sheet.webp",
-        "title":"Online Casino Cheat Sheet",
-        "caption": "A cheat sheet is a document that lists the card values and the best strategies for playing online blackjack. A good cheat sheet can help you improve your chances of winning, and it can also help you avoid costly mistakes.",
-        "type": "image",
-        "source_type": "link",
-        "source_link": "../articles/online_casino_cheat_sheet.html",
-        "category": "Tips & Tricks",
-        "time":"26.July.2022"
-
-    
-    },
+  
     {
         "image": "img/how_to_pick_right_slot_machine.webp",
         "title":"How to Pick the Right Slot Machine to Improve Your Winning Chances",
@@ -35,18 +24,7 @@
 
     
     },
-    {
-        "image": "img/gamble_from_comfort_of_your_house.jpg",
-        "title":"How to Play Online Casino Effectively",
-        "caption": "This guide will give you the basics of how to play online casino games and help you maximize your chances of winning.",
-        "type": "image",
-        "source_type": "link",
-        "source_link": "../articles/How_to_Play_Online_Casino_Effectively.html",
-        "category": "Tips & Tricks",
-        "time":"20.July.2022"
-
-    
-    },
+  
     {
         "image": "img/Martingale_Roulette_Strategy.jpeg",
         "title":"Beat the Roulette(Martingale Roulette Strategy)",
@@ -83,18 +61,7 @@
 
     
     },
-    {
-        "image": "img/online_casino_safety_tips.jpeg",
-        "title":"Online Casino Safety Tips (How to Avoid Scams)",
-        "caption": "Casino online safety can be a concern for anyone playing at a casino, whether they are using their personal computer or visiting one of the many official casino sites. The following are some tips to help ensure a safe and enjoyable experience when gambling online",
-        "type": "image",
-        "source_type": "link",
-        "source_link": "../articles/Casino Online Safety Tips (How to Avoid Scams).html",
-        "category": "Tips & Tricks",
-        "time":"16.July.2022"
-
-    
-    },
+   
     {
         "image": "img/Ultimate_Blackjack_Strategies_to_Win.webp",
         "title":"Ultimate Blackjack Strategies to Win",
@@ -118,7 +85,80 @@
         "time":"19.July.2022"
 
     
-    }
+    },
   
     
+
+
+
+
+
+
+
+
+    
+    {
+        "image": "../img/what_gambling_games_have_the_best_and_worst_odds_to_win.jpg",
+        "title":"What Gambling Games Have The Best (And Worst) Odds to win?",
+        "caption": " Games requiring more talent, such as blackjack and roulette, had greater odds of winning than games requiring less skill, such as slot machines and video poker. In this blog, we will look at the chances of winning different gambling games.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/what_gambling_games_have-the_best_odds_to_win.html",
+        "category": "Tips & Tricks",
+        "time":"03.August.2022"
+
+    
+    },
+    {
+        "image": "../img/top_11_casino_gambling_myths_busted.jpg",
+        "title":"Top 11 Casino Gambling Myths – Busted!",
+        "caption": " People that work in casinos are typically hard-working individuals who are just trying to earn a living for themselves. Gambling in a casino can be a fun and successful experience if you go in with the right mindset and do some research beforehand.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/the_top_11_casino_gambling_myths_busted.html",
+        "category": "Tips & Tricks",
+        "time":"03.August.2022"
+
+    
+    },
+  
+    {
+        "image": "img/10_greatest_gambling_frauds.jpg",
+        "title":"10 Greatest Gambling Frauds That Actually Worked",
+        "caption": " Gambling frauds are nothing new, but that doesn’t make them any less despicable. Over the years, there have been countless examples of individuals who have taken advantage of casinos and other gambling establishments for their own gain.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/10_greatest_gambling_frauds_that_actually_worked.html",
+        "category": "Tips & Tricks",
+        "time":"29.July.2022"
+
+    
+    },
+    {
+        "image": "img/turn_gambling_into_a_legitimate_full_time_job.webp",
+        "title":"Turn Gambling Into a Legitimate Full-Time Job",
+        "caption": " There are several ways to make money from gambling, and the best way to become successful is to find the right niche and stick with it. There are several different types of gambling",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/turn_gambling_into_a_legitimate_full-time_job.html",
+        "category": "Tips & Tricks",
+        "time":"27.July.2022"
+
+    
+    },
+   
+    {
+        "image": "img/basic-gambling.webp",
+        "title":"What is gambling?",
+        "caption": "Investing is a long-term strategy; it takes a lifetime to hit the jackpot. On the other hand, others use alternative strategies for short-term gains; one of them is gambling.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/basic-gambling.html",
+        "category": "Tips & Tricks",
+        "time":"10.July.2022"
+
+    
+    }
+  
+   
 ]
