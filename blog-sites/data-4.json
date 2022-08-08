@@ -1,6 +1,17 @@
 [
   
-  
+    {
+        "image": "../img/bitcoin_gambling_complete_guide.jpeg",
+        "title":"Bitcoin Gambling - A Complete Guide",
+        "caption": "When it first began, gambling with bitcoin was nothing more than a game of luck. These days, however, there are many other kinds of bitcoin gaming available, and you can gamble on virtually anything with them.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/bitcoin_gambling_complete_guide.html",
+        "category": "Crypto Gambling",
+        "time":"08.August.2022"
+
+    
+    },
     {
         "image": "img/why_crypto_casinos_are_the_future_of_online_gambling.jpeg",
         "title":"Why Crypto Casinos Are the Future of Online Gambling",
