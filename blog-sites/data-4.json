@@ -1,5 +1,16 @@
 [
-  
+    {
+        "image": "../img/why_crypto_gambling_is_a_booming_industry.jpg",
+        "title":"Why Crypto Gambling is a Booming Industry",
+        "caption": "The benefits of crypto gambling include anonymity and security. Crypto gambling is also more secure than traditional casino games because there is no central location that can be hacked.",
+        "type": "image",
+        "source_type": "link",
+        "source_link": "../articles/why_crypto_gambling_is_a_booming_industry.html",
+        "category": "Crypto Gambling",
+        "time":"10.August.2022"
+
+    
+    },
     {
         "image": "../img/bitcoin_gambling_complete_guide.jpeg",
         "title":"Bitcoin Gambling - A Complete Guide",
