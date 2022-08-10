@@ -1,5 +1,11 @@
 [
     {
+        "image": "../img/incredible_story_of_sebastian_malec.jpg",
+        "title":"The Incredible Story of Sebastian Malec",
+        "category": "Online Business",
+        "source_link": "incredible_story_of_sebastian_malec.html"
+    },
+    {
         "image": "../img/bitcoin_gambling_complete_guide.jpeg",
         "title":"Bitcoin Gambling - A Complete Guide",
         "category": "Online Business",
