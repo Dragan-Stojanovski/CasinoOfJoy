@@ -170,34 +170,6 @@ const modal = document.querySelector('.modal');
 
 
 
-///////////////////////////////////////
-// Sticky navigation: Intersection Observer API
-/*
-const header = document.querySelector('.header-services');
-const navHeight = nav.getBoundingClientRect().height;
-
-const stickyNav = function (entries) {
-const [entry] = entries;
-// console.log(entry);
-
-if (!entry.isIntersecting) nav.classList.add('sticky');
-else nav.classList.remove('sticky');
-};
-
-const headerObserver = new IntersectionObserver(stickyNav, {
-root: null,
-threshold: 0,
-rootMargin: `-${navHeight}px`,
-});
-
-headerObserver.observe(header);
-
-
-
-*/
-
-
-///////////////////////////////////////
 // Modal window
 
 const openModal = function (e) {
@@ -225,22 +197,3 @@ if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
 
 
 
-
-let slideImg=document.getElementById("slideImg");
-var images=new Array(
-    "https://images.pexels.com/photos/4509131/pexels-photo-4509131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-   
-);
-
-var len = images.length;
-var i = 0;
-
-function slider(){
-if(i>len-1){
-    i=0;
-}
-slideImg.src=images[i];
-i++;
-setTimeout('slider()',4000);
-}
