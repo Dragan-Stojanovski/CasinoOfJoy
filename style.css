@@ -206,8 +206,9 @@ margin-left:15%;
 }
 
 h1 {
-  font-size: 5.5rem;
-  line-height: 5.1rem;
+  font-size: 41px;
+  line-height: 56px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 h4 {
@@ -2279,8 +2280,8 @@ li{
 }
 
 p{
-  font-size:16px;
-  line-height:18px;
+  font-size:18px;
+  line-height:27px;
 }
 .banners-section{
   display:none;
@@ -2293,8 +2294,8 @@ margin-bottom:25px;
  }
 
  .container-block h2{
-  font-size:3rem;
-  line-height:2.8rem;
+  font-size:34px;
+  line-height:42px;
  }
 
 
