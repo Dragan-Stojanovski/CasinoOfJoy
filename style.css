@@ -2099,11 +2099,13 @@ height:70vh;
  .index-tricks-wrap{
   display:flex;
   justify-content: center;
+  flex-wrap: wrap;
+  align-content: stretch;
   gap:5%;
  
  }
  .index-tricks-box{
-  width:20%;
+  width:22%;
  }
  .index-tricks-box img{
   width:100%;
