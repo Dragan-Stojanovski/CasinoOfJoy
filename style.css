@@ -2422,3 +2422,7 @@ margin-bottom:25px;
 .img-6{
   background-image:URL("img/index_slide/poker.jpg");
 }
+.kategorija{
+  font-size:16px;
+  color:red;
+}
