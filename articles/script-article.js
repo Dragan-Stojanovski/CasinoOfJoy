@@ -175,7 +175,7 @@ function printCards(data) {
 			let link=document.createElement("a")
 			let image=document.createElement("img")
 			image.src=el.image;
-		
+		image.alt=el.title
 			sideTitle.textContent=el.title
 			   
 				link.href=el.source_link
@@ -218,7 +218,7 @@ function printCards2(data) {
 			let link=document.createElement("a")
 			let image=document.createElement("img")
 			image.src=el.image;
-		
+			image.alt=el.title
 			sideTitle.textContent=el.title
 			   
 				link.href=el.source_link
@@ -260,7 +260,7 @@ function printCards3(data) {
 			let image=document.createElement("img")
 			image.src=el.image;
 			sideTitle.textContent=el.title
-			   
+			image.alt=el.title
 				link.href=el.source_link
 		
 		
