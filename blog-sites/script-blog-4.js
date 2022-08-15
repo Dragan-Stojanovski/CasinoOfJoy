@@ -28,9 +28,10 @@ let category=document.createElement("h5")
 		link.appendChild(img);
 		link.appendChild(category);
 		link.appendChild(title);
-		link.appendChild(caption);
+		
 		link.appendChild(time);
 	mainWrap.appendChild(link)
+	mainWrap.appendChild(caption)
 mainContainer.appendChild(mainWrap);
     })
 }

@@ -170,8 +170,8 @@ function printCards(data) {
        
 	
 		
-		let sideTitle=document.createElement("h3")
-		
+		let sideTitle=document.createElement("span")
+		sideTitle.classList.add("side-ha3")
 			let link=document.createElement("a")
 			let image=document.createElement("img")
 			image.src=el.image;
@@ -213,8 +213,8 @@ function printCards2(data) {
        
 	
 		
-		let sideTitle=document.createElement("h3")
-		
+		let sideTitle=document.createElement("span")
+		sideTitle.classList.add("side-ha3")
 			let link=document.createElement("a")
 			let image=document.createElement("img")
 			image.src=el.image;
@@ -254,8 +254,8 @@ function printCards3(data) {
        
 	
 		
-		let sideTitle=document.createElement("h3")
-		
+		let sideTitle=document.createElement("span")
+		sideTitle.classList.add("side-ha3")
 			let link=document.createElement("a")
 			let image=document.createElement("img")
 			image.src=el.image;

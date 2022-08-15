@@ -1262,7 +1262,7 @@ width:30%;
 .container-wrap{
   display:flex;
   justify-content: center;
-  width:95%;
+  width:80%;
   margin:auto;
   margin-top:5%;
   font-family:var(--font-primary);
@@ -2427,4 +2427,9 @@ margin-bottom:25px;
 .kategorija{
   font-size:16px;
   color:red;
+}
+
+.side-ha3{
+  font-size:20px;
+  line-height:22px;
 }
