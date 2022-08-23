@@ -2451,3 +2451,10 @@ margin-bottom:25px;
   color:white;
   font-size:23px;
 }
+.poker-terms h3{
+  background-color:red;
+  width:fit-content;
+  padding:3px 10px;
+  font-weight:900;
+  border-radius:0px 20px 0px 10px;
+}
