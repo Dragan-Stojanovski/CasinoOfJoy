@@ -1282,7 +1282,7 @@ padding:6px;
 .side-block{
   width:25%;
   border-left:1px solid rgba(255, 255, 255, 0.304);
-  
+
   
  
 }
@@ -1302,6 +1302,8 @@ padding:6px;
   position:sticky;
   top:170px;
 transition:all 0.5s ease-in;
+overflow-y:auto;
+height:70vh;
   
 }
 .side-bar a,.side-bar-2 a,.side-bar-3 a{
