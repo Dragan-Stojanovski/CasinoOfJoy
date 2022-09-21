@@ -2286,6 +2286,9 @@ li{
   .container-block{
     padding:2px;
   }
+  .news-letter p{
+    font-size:16px;
+  }
 }
 
 p{
